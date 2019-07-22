@@ -11,7 +11,7 @@ server:
     
 mybatis:
   config-location: classpath:mybatis/mybatis-config.xml  #mybatis配置文件所在路径
-  type-aliases-package: com.chan.springcloud.entities #所有entity别名类所在类
+  type-aliases-package: icbc.sdc.wisdompark.entities #所有entity别名类所在类
   mapper-locations:
   - classpath:mybatis/mapper/**/*.xml                 #mapper映射文件
   
@@ -48,7 +48,7 @@ server:
     
 mybatis:
   config-location: classpath:mybatis/mybatis-config.xml  #mybatis配置文件所在路径
-  type-aliases-package: com.chan.springcloud.entities #所有entity别名类所在类
+  type-aliases-package: icbc.sdc.wisdompark.entities #所有entity别名类所在类
   mapper-locations:
   - classpath:mybatis/mapper/**/*.xml                 #mapper映射文件
   
