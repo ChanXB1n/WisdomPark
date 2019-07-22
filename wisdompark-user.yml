@@ -10,7 +10,7 @@ server:
 
     
 mybatis:
-  config-location: classpath:mybatis/mybatis-configcfg.xml  #mybatis配置文件所在路径
+  config-location: classpath:mybatis/mybatis-config.xml  #mybatis配置文件所在路径
   type-aliases-package: com.chan.springcloud.entities #所有entity别名类所在类
   mapper-locations:
   - classpath:mybatis/mapper/**/*.xml                 #mapper映射文件
